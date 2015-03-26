@@ -42,6 +42,14 @@ header.carousel .fill {
     background-size: cover;
 }
 
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  padding: 0 15px 0 15px;
+}
+
 /* 404 Page Styles */
 
 .error-404 {
