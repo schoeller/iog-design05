@@ -36,11 +36,16 @@ body {
 
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
 	color: #FFF;
-    background-color: #00b6f0;
+    background-color: #00A9E0;
 }
 
 /* Well */
 .well {
+    border-radius: 0px;
+}
+
+/* Btn */
+.btn {
     border-radius: 0px;
 }
 
@@ -89,26 +94,26 @@ header.carousel .fill {
 .navbar-inverse {
 /*
 // Pantone Coated 282 C (dunkelblau)
-//  background-color: rgb(4, 30, 66)
 // Pantone Coated 2995 C (hellblau)
 // 0, 169, 224
 // Pantone 144 C (orange)
 // 237, 139, 0
 // Pantone 382 C (grün)
 // 196, 214, 0
-*/
   background-color: rgb(0, 45, 99);
+*/
+  background-color: rgb(4, 30, 66)
 }
 
 .navbar-inverse .navbar-nav > .open > a, 
 .navbar-inverse .navbar-nav > .open > a:focus, 
 .navbar-inverse .navbar-nav > .open > a:hover {
-    background-color: #00b6f0;
+    background-color: #00A9E0;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus, 
 .navbar-inverse .navbar-nav > li > a:hover {
-    background-color: #00b6f0;
+    background-color: #00A9E0;
 }
 
 .navbar-brand {
