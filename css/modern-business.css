@@ -28,6 +28,25 @@ body {
     border-radius: 0px;
 }
 
+/* Panel */
+.panel-heading {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.panel-primary > .panel-heading {
+    background-color: rgb(4, 30, 66);
+}
+
+.panel-group .panel {
+    border-radius: 0px;
+}
+
+/* Jumbotron */
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 0px;
+}
+
 /* Sidebar */
 .list-group-item{
     border-left: none;
@@ -73,7 +92,33 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	display: block;
 } 
 
+/* Forms */
+.form-control {
+    border-radius: 0px;
+}
+
+/* Thumbnail */
+.thumbnail {
+    border-radius: 0px;
+}
+
 /* Pagination */
+.pagination {
+    border-radius: 0px;
+}
+
+.pagination > li:first-child > a, 
+.pagination > li:first-child > span {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.pagination > li:last-child > a, 
+.pagination > li:last-child > span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
@@ -118,6 +163,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .open > .dropdown-toggle.btn-primary {
     background-color: #00A9E0;
     border-color: #00A9E0;
+}
+
+/* Pager */
+.pager li > a, .pager li > span {
+    border-radius: 0px;
 }
 
 /* Breadcrumb */
