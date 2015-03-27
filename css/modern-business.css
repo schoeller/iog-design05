@@ -12,7 +12,7 @@ body {
 }
 
 body {
-//    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .img-portfolio {
@@ -223,15 +223,10 @@ header.carousel .fill {
 }
 
 .navbar {
-	background-color: #fff;
-	margin-bottom: 0px;
+  background-color: #fff;
 }
 
 .navbar-fixed-top {
-    border-width: 0px 0px 0px;
-}
-
-.navbar-static-top {
     border-width: 0px 0px 0px;
 }
 
