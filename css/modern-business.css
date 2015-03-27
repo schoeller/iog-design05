@@ -74,6 +74,19 @@ body {
     color: #002D63;
 }
 
+/* Text */
+.text-primary {
+    color: #00A9E0;
+}
+
+a {
+    color: #00A9E0;
+}
+
+a:focus, a:hover {
+    color: rgb(4, 30, 66);
+}
+
 /* Home Page Carousel */
 
 header.carousel {
