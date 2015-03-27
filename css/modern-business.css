@@ -23,6 +23,27 @@ body {
     opacity: 0.8;
 }
 
+/* Border */
+.panel {
+    border-radius: 0px;
+}
+
+/* Dropdown */
+.navbar-nav > li > .dropdown-menu {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	color: #FFF;
+    background-color: #00b6f0;
+}
+
+/* Well */
+.well {
+    border-radius: 0px;
+}
+
 /* Home Page Carousel */
 
 header.carousel {
@@ -44,6 +65,35 @@ header.carousel .fill {
 
 .navbar {
   background-color: #fff;
+}
+
+.navbar-fixed-top {
+    border-width: 0px 0px 0px;
+}
+
+.navbar-inverse {
+/*
+// Pantone Coated 282 C (dunkelblau)
+//  background-color: rgb(4, 30, 66)
+// Pantone Coated 2995 C (hellblau)
+// 0, 169, 224
+// Pantone 144 C (orange)
+// 237, 139, 0
+// Pantone 382 C (grün)
+// 196, 214, 0
+*/
+  background-color: rgb(0, 45, 99);
+}
+
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:focus, 
+.navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: #00b6f0;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #00b6f0;
 }
 
 .navbar-brand {
