@@ -44,9 +44,24 @@ body {
     border-radius: 0px;
 }
 
-/* Btn */
+/* Button */
 .btn {
     border-radius: 0px;
+}
+
+.btn-primary {
+    background-color: rgb(4, 30, 66);
+    border-color: rgb(4, 30, 66);
+}
+
+.btn-primary.active, 
+.btn-primary.focus, 
+.btn-primary:active, 
+.btn-primary:focus, 
+.btn-primary:hover, 
+.open > .dropdown-toggle.btn-primary {
+    background-color: #00A9E0;
+    border-color: #00A9E0;
 }
 
 /* Header */
