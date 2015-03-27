@@ -102,6 +102,10 @@ body {
     background-color: #00A9E0;
 }
 
+.dropdown-menu > li > a {
+    padding: 10px 20px;
+}
+
 ul.nav li.dropdown:hover > ul.dropdown-menu { 
 	display: block;
 } 
