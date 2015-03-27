@@ -64,6 +64,11 @@ body {
     border-color: #00A9E0;
 }
 
+/* Breadcrumb */
+.breadcrumb {
+    border-radius: 0px;
+}
+
 /* Header */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #002D63;
