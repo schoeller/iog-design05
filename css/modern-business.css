@@ -70,6 +70,15 @@ body {
     border-color: #00A9E0;
 }
 
+/* Navbar */
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:15px !important; padding-bottom:0 !important;
+    height: 80px;
+}
+.navbar {
+	min-height:80px !important;
+}
+
 /* Dropdown */
 .navbar-nav > li > .dropdown-menu {
     border-bottom-left-radius: 0px;
