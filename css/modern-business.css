@@ -28,6 +28,29 @@ body {
     border-radius: 0px;
 }
 
+/* Sidebar */
+.list-group-item{
+    border-left: none;
+	border-right: none;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	border-top: none;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+	border-bottom: none;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #00A9E0;
+    border-color: #00A9E0;
+}
+
 /* Dropdown */
 .navbar-nav > li > .dropdown-menu {
     border-bottom-left-radius: 0px;
