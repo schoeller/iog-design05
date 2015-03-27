@@ -189,6 +189,8 @@ header.carousel .fill {
 
 footer {
     margin: 50px 0;
+	background-color: rgb(4, 30, 66);
+	color: #9D9D9D;
 }
 
 /* Responsive Styles */
