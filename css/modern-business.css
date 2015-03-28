@@ -78,8 +78,7 @@ body {
 
 .navbar-inverse .navbar-nav > li > a {
     padding-bottom: 30px;
-    padding-top: 30px;
-    margin-top: -15px;
+    padding-top: 15px;
 }
 
 /* Dropdown */
