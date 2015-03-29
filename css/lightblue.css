@@ -356,6 +356,14 @@ footer .navbar-nav > .active > a:hover {
     background-color: #F5F5F5;
 }
 
+.banking-details h1 {
+    font-size: 16px;
+}
+
+.special-details h1 {
+    font-size: 16px;
+}
+
 /* Header */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #002D63;
