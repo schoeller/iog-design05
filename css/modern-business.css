@@ -328,11 +328,16 @@ footer h1,h2,h3,h4,h5,h6 {
 	color: #00A9E0 !important;
 }
 
+footer .navbar-nav > li > a:focus,
+footer .navbar-nav > li > a:hover {
+	color: #9D9D9D;
+}
+
 .banking-details h2 {
-font-size: 16px;
+	font-size: 16px;
 }
 .special-details h2 {
-font-size: 16px;
+	font-size: 16px;
 }
 
 /* Responsive Styles */
