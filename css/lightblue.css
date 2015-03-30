@@ -247,6 +247,11 @@ header.carousel .fill {
     color: #00A9E0;
 }
 
+/* Fixing carousel css */
+header.carousel .fill {
+  min-height: 400px;
+}
+
 .navbar {
   background-color: #fff;
 }
