@@ -328,6 +328,13 @@ footer h1,h2,h3,h4,h5,h6 {
 	color: #00A9E0 !important;
 }
 
+.banking-details h2 {
+font-size: 16px;
+}
+.special-details h2 {
+font-size: 16px;
+}
+
 /* Responsive Styles */
 
 @media(max-width:991px) {
