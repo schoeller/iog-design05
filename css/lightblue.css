@@ -102,6 +102,10 @@ body {
     border-bottom-right-radius: 0px;
 }
 
+.dropdown-menu {
+    border-top-width: 0px;
+}
+
 .dropdown-menu > li > a:focus, 
 .dropdown-menu > li > a:hover {
 	color: #FFF;
