@@ -407,3 +407,39 @@ footer .navbar-nav > .active > a:hover {
         height: 70%;
     }
 }
+
+<!-- Share Button Styles -->
+.share-icons {
+    list-style: none;
+}
+
+.share-icons > li {
+  display: inline-block;
+}
+
+.ad_title_share {
+    position: relative;
+    top: 5px;
+    width: 160px;
+    height: 80px;
+    margin-left: 22px;
+}
+
+.share-icons-sidebar {
+    position: fixed;
+    display: block;
+    top: 110px;
+    left: 0px;
+    width: 36px;
+    min-height: 43px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .ad_title_share {
+        display: none;
+    }
+
+    .share-icons-sidebar {
+        display: none;
+    }
+}
