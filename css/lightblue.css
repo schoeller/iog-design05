@@ -200,6 +200,20 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     border-color: #00A9E0;
 }
 
+.btn-default {
+    border-color: #00A9E0;
+}
+
+.btn-default.active,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover,
+.open > .dropdown-toggle.btn-default {
+    background-color: #00A9E0;
+    border-color: #00A9E0;
+}
+
 /* Pager */
 .pager li > a, .pager li > span {
     border-radius: 0px;
@@ -387,6 +401,7 @@ footer .navbar-nav > .active > a:hover {
 /* Header */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #002D63;
+	font-family: "georgia"
 }
 
 /* Responsive Styles */
@@ -432,6 +447,10 @@ footer .navbar-nav > .active > a:hover {
     left: 0px;
     width: 36px;
     min-height: 43px;
+}
+
+.fa {
+	color: #002D63;
 }
 
 @media only screen and (max-width: 1080px) {
